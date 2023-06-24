@@ -37,18 +37,18 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
                Page Down key. You can do anything QMK allows you to do here.
                You'll want to replace these lines with the things you want your
                encoders to do. */
-            tap_code(KC_PGDN);
+            tap_code(KC_PGUP);
         } else {
             /* And likewise for the other direction, this time Page Down is pressed. */
-            tap_code(KC_PGUP);
+            tap_code(KC_PGDN);
         }
         /* You can copy the code and change the index for every encoder you have. Most
            keyboards will only have two, so this piece of code will suffice. */
     } else if (index == 1) { /* Second encoder */
         if (clockwise) {
-            tap_code(KC_VOLU);
-        } else {
             tap_code(KC_VOLD);
+        } else {
+            tap_code(KC_VOLU);
         }
     }
     return false;
