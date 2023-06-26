@@ -62,8 +62,8 @@
       "KC_LGUI",
       "KC_ENT",
       "KC_SPC",
-      "MO(1)",
       "KC_BSPC",
+      "TG(1)",
       "KC_SLSH"
     ],
     [
@@ -122,8 +122,8 @@
       "KC_LGUI",
       "KC_ENT",
       "KC_SPC",
-      "MO(0)",
       "KC_BSPC",
+      "TG(1)",
       "KC_PENT"
     ]
   ],
